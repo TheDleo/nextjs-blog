@@ -17,7 +17,10 @@
     "sharp": "^0.30.7"
   },
   "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
     "@zeplin/cli": "^2.0.0",
-    "@zeplin/cli-connect-react-plugin": "^1.1.1"
+    "@zeplin/cli-connect-react-plugin": "^1.1.1",
+    "typescript": "^4.7.4"
   }
 }
