@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+I'm using this site to test Next.js and Vercel. Use yarn!
