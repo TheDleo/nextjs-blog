@@ -7,7 +7,15 @@ import Link from 'next/link';
 const name = 'Dan';
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home }) {
+type LayoutProps = {
+  children: React.ReactNode
+  home?: boolean
+}
+
+export default function Layout({
+    children,
+    home
+  }: LayoutProps) {
   return (
     <div className={styles.container}>
       <Head>
@@ -46,8 +54,8 @@ export default function Layout({ children, home }) {
                   priority
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
-                  height={128}
-                  width={128}
+                  height={144}
+                  width={144}
                   alt={name}
                 />
               </a>
